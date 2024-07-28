@@ -1,0 +1,94 @@
+$primary-color:#FFEFE7;
+$secundary-color:#FFDAC6;
+$tertiary-color:#BABD8D;
+$primary-text-color:#7C6A0A;
+
+$font-stack: 'IBM Plex Sant', sant-serif;
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background: linear-gradient(0deg, rgb(130, 253, 255) 0%, rgb(255, 255, 255) 100%);
+}
+
+.logo {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        width: 150px;
+        border-radius: 50%;
+    }
+    p{
+        text-align: center;
+    }
+}
+
+.form {
+    max-width: 400px;
+    padding: 20px;
+    box-shadow: 5px 6px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.70);
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    h2{
+        font-size: 15px;
+        padding-bottom: 16px;
+        text-align: center;
+    }
+    form {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    input{
+        border-radius: 10px;
+        height: 25px;
+        padding-left: 10px;
+    }  
+    button {
+        border-radius: 10px;
+        width: 70px;
+        height: 25px;
+    }  
+}
+.buttons {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin-bottom: 40px;
+    button {
+        border: none;
+        border-radius: 10px;
+        box-shadow: 5px 6px 8px rgba(0, 0, 0, 0.3);
+        width: 100px;
+        height: 25px;
+        cursor: pointer;
+        &:hover {
+            background-color: #128C7E;
+        }
+    }
+    .wp {
+        color: white;
+        background-color: rgb(95, 224, 95);
+    }
+    .pt {
+        color: white;
+        background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(189,189,189,1) 100%);
+    }
+    .in {
+        color: white;
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    }
+}
